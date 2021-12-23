@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, td, th{
+  border:1px solid black;
+}
+</style>
+<body>
+<h1>Спортивная школа</h1>
+<p><h3>Можете написать в Телеграмм: <a href="https://t.me/MarkenBagdat">Связаться</a></h3></p>
+
+<h4>Что вы получите, если присоединитесь к нам:</h4>
+<ul>
+    <li>Много новых единомышленников</li>
+    <li>Спортивное тело</li>
+    <li>Дисциплину</li>
+  </ul>
+
+<h2>Список секции</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Спортивные секции</th>
+    <th>Контакты</th>
+    <th>Цена (месяц)</th>
+    <th>Расписание</th>
+  </tr>
+  <tr>
+    <td>Волейбол</td>
+    <td>87015687889</td>
+    <td>8000тг</td>
+    <td>Пн, ср, суб</td>
+  </tr>
+  <tr>
+    <td>Футбол</td>
+    <td>87759638523</td>
+    <td>5000тг</td>
+    <td>пн, вт, чт</td>
+  </tr>
+   <tr>
+    <td>Теннис</td>
+    <td>87026589675</td>
+    <td>12 000</td>
+    <td>вт, ср, чт, воск</td>
+  </tr>
+</table>
+ <p>
+<form>
+  <label for="fname">Ваше имя:</label><br>
+  <input type="text" id="fname" name="fname" value="Асыл"><br>
+  <label for="lname">Ваша фамилия:</label><br>
+  <input type="text" id="lname" name="lname" value="Аскаров"><br>
+  <label for="hob">Введите секцию:</label><br>
+  <input type="text" id="hob" name="hob" value="Футбол"><br>
+  <p><input type="submit" value="Отправить"></p>
+</form>
+</p>
+</body>
+</html>
+
